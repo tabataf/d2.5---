@@ -1,0 +1,115 @@
+.body {
+  font-family: "lora", serif;
+}
+
+.conteudo {
+  width:72%;
+  margin: 120px auto;
+  background-color: white;
+  padding: 50px ; 
+  border-radius: 15px
+}
+
+.background{
+  background-color: #2e2d4c;
+  background-image: url(../imagens/background-foods-v4.png);
+  background-attachment: fixed;
+}
+
+.cabecalho{
+  text-align: center;
+  color: white;
+  margin: auto;
+  padding: 30px;
+}
+
+.logo img { 
+  width: 12rem;
+}
+
+.navigation li {
+  display: inline-block;
+  width: 150px;
+  font-size: 1.rem;
+  text-transform: uppercase
+}
+
+.navigation li a:visited {
+  color:gray;
+  text-decoration: none;
+}
+.navigation li a:hover {
+  color:rgb(57, 56, 56);
+  text-decoration: underline;
+}
+
+.avatar {
+  float: left;
+  width: 12rem;
+  padding: 2rem;
+  margin-right: 20px;
+}
+
+.fonte--media {
+  font-family: "lora", serif;
+  font-size: 1.7rem;
+}
+
+.icons {
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+
+.titulo {
+  font-size: 1.9rem;
+  margin-top: 50px;
+}
+
+.titulo--fonte {
+  font-family: "Exo 2", sans-serif;
+}
+
+.habilidades label {
+  width: 250px;
+  display: inline-block;
+}
+
+.habilidades progress {
+  accent-color: #2e2d4c;
+}
+
+.fotos img {
+  border-radius: 8px;
+  width: 450px;
+  height: 240px;
+  filter: grayscale(0.4);
+}
+
+.fotos img:hover {
+  filter: none;
+}
+
+.icons:hover{
+  color:#666565;
+}
+
+ .btn-inicio {
+   color: #fff;
+   width: 60px;
+   font-size: 3rem;
+   height: 60px;
+   line-height: 60px;
+   text-align: center;
+   background-color: #fff;
+   border-radius: 50%;
+   position: fixed;
+   bottom: 20px;
+   right: 20px;
+   opacity: 0.3;
+ }
+
+.btn-inicio:hover {
+  opacity: 1.0;
+}
