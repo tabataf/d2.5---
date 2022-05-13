@@ -31,7 +31,7 @@
   display: inline-block;
   width: 150px;
   font-size: 1.rem;
-  text-transform: uppercase
+  text-transform: uppercase;
 }
 
 .navigation li a:visited {
@@ -82,8 +82,8 @@
 
 .fotos img {
   border-radius: 8px;
-  width: 450px;
-  height: 240px;
+  width: 532px;
+  height: 276px;
   filter: grayscale(0.4);
 }
 
@@ -95,21 +95,55 @@
   color:#666565;
 }
 
- .btn-inicio {
-   color: #fff;
-   width: 60px;
-   font-size: 3rem;
-   height: 60px;
-   line-height: 60px;
-   text-align: center;
-   background-color: #fff;
-   border-radius: 50%;
-   position: fixed;
-   bottom: 20px;
-   right: 20px;
-   opacity: 0.3;
- }
+.btn-inicio {
+  font-size: 3rem;
+  color: #ffffff;
+  width: 60px;
+  height: 60px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  line-height: 60px;
+  text-align: center;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  opacity: 0.3;
+}
 
 .btn-inicio:hover {
-  opacity: 1.0;
+  opacity: 1;
+}
+
+.material-icons {
+  color: #2e2d4c;
+  width: 32px;
+}
+
+.footer {
+  position: relative;
+  padding: 120px;
+  background-color: #1b1a2f;
+  color: white;
+  text-align: center;
+}
+
+.logotipo {
+  color:#e2e1e8;
+  position: absolute;
+  right: 50%;
+  font-size: 1.8rem;
+  padding-top: 10px;
+  z-index: 1;
+  transform: translateX(50%) ;
+}
+
+.logomarca.fundo {
+  background-color: #502323;
+  width: 100px;
+  height: 100px;
+  float: right;
+  margin-right: 50%;
+  margin-top: -50px;
+  transform: translateX(50%) rotate(45deg) ;
+
 }
